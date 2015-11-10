@@ -1,42 +1,13 @@
 ---
-title: "Temp"
-output: beamer_presentation
+title: "StatFest_TM"
+author: "Mengqian LU"
+date: "Nov 14, 2015"
+output: pdf_document
 fontsize: 9pt
 ---
 
-## R Markdown
+## PROJECTS
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
-## Slide with Bullets
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-## Slide with R Code and Output
-
-```{r}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-## Basic Console 
-```{r basicconsole}
-x <- 1:10
-y <- round(rnorm(10, x, 1), 2)
-df <- data.frame(x, y)
-df
-```
-
-## Error Message
-```{r,echo=TRUE,eval=TRUE,error=TRUE,tidy=TRUE}
-hist(deltaWt, breaks = 30)
-```
+- [CU StatFest 2015 Data+Journalism Hackathon] (https://github.com/MRandomMax/StatFest_2015)
+- [Getting Started with R]
+- [Exploratory data analysis]
