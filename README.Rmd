@@ -2,7 +2,6 @@
 title: "StatFest_TM"
 author: "Mengqian LU"
 date: "Nov 14, 2015"
-output: pdf_document
 fontsize: 9pt
 ---
 
