@@ -7,6 +7,6 @@ fontsize: 9pt
 
 ## PROJECTS
 
-- [CU StatFest 2015 Data+Journalism Hackathon] (https://github.com/MRandomMax/StatFest_2015)
+- [CU StatFest 2015 Data+Journalism Hackathon]
 - [Getting Started with R]
 - [Exploratory data analysis]
