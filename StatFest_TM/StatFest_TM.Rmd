@@ -21,6 +21,7 @@ The document is available on <https://github.com/MRandomMax/StatFest_2015>
 ## ggplot2 -- Plot word frequencies.
 ## scales -- Include commas in numbers.
 ## Rgraphviz -- Correlation plots.
+## fpc - Flexible Procedures for Clustering
 
 require('wordcloud')
 require('biclust')
@@ -78,7 +79,6 @@ We will be using the *'crude'* data for the following demonstration.
 ```{r, echo=TRUE, message=FALSE}
 data('crude')
 docs = crude
-dim(docs)
 docs
 
 toSpace = content_transformer(function(yourdata, target) gsub(target, ' ', yourdata))
@@ -191,7 +191,7 @@ inspect(tdm[1:20,1:5]) #compare to your dtm
 ```{r, eval=FALSE}
 # save dtm or tdm as .csv for future use if you like
 write.csv(as.matrix(dtm),file='dtm.csv')
-write.csv(as.matrix(tdm),file='dtm.csv')
+write.csv(as.matrix(tdm),file='tdm.csv')
 ```
 
 ## III.1. Individual level: Frequencies and counts
@@ -338,7 +338,7 @@ clusplot(as.matrix(mdist),mkm$cluster,color=T,shade=T,labels=2,lines=0)
 ### NOTES:
 ### Hierarchical Clustering vs. K-means
 + K-means clustering produces a single partitioning
-+ Hierarchical Clustering can give diﬀerent partitionings depending on the level-of-resolution we are looking at
++ Hierarchical clustering can give diﬀerent partitionings depending on the level-of-resolution we are looking at
 + K-means clustering needs the number of clusters to be speciﬁed
 + Hierarchical clustering doesn’t need the number of clusters to be speciﬁed
 + K-means clustering is usually more eﬃcient run-time wise
