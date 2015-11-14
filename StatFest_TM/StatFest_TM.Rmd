@@ -14,7 +14,7 @@ The document is available on <https://github.com/MRandomMax/StatFest_2015>
 ## wordcloud -- plot a word cloud 
 ## biclust -- Data preprocessing (normalization and discretisation), 
 ##            visualisation, and validation of bicluster
-## **tm** -- Framework for text mining.
+## tm -- Framework for text mining.
 ## SnowballC -- Provides wordStem() for stemming.
 ## dplyr -- Data preparation and pipes.
 ## RColorBrewer -- Generate palette of colours for plots.
